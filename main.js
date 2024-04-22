@@ -23,3 +23,6 @@ function getKM() {
 
     document.querySelector("#outputAnswer").value = result;
 }
+$( ".js-click" ).click(function() {
+    $( ".js-click" ).css('background', 'green');
+  });

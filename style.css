@@ -25,6 +25,28 @@ h1, h2, h3, h4, h5, h6 {
 label {
     font-family: "Poppins", sans-serif;
 }
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+.btn:hover {
+    background-color: #FBBC04 !important;
+    color: black !important;
+}
+.btn:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 
 @media screen and (max-width: 767px) {
     .col-md-2 img {
