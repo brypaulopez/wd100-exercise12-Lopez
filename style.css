@@ -1,0 +1,36 @@
+body {
+    background-image: url(img/bg.jpg);
+    background-size: auto;
+    background-position: center;
+}
+.container {
+    margin-top: 300px;
+    width: 800px !important;
+    position: relative;
+    box-shadow: 1px 1px 4px 5px orange
+}
+.banner img {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    transform: rotate(45deg);
+}
+
+/* default css */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+label {
+    font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .col-md-2 img {
+        width: 100px !important; height: 100px;
+    }
+    .col-md-2 {
+        text-align: center;
+    }
+}
